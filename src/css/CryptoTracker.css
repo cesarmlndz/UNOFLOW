@@ -14,7 +14,7 @@
     background: rgba(0, 0, 0, 0.322);
     padding: 1rem;
     width: fit-content;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
 .crypto-header input {

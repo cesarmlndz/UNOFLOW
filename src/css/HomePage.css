@@ -87,6 +87,9 @@
 }
 
 @media (max-width: 420px) {
+    .cover {
+        height: 29rem;
+    }
     .overlay {
         display: flex;
         flex-direction: column;

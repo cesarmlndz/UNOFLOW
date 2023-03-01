@@ -40,7 +40,7 @@ export default function CryptoTracker() {
       <div className="coin-labels">
         <p className="label">#</p>
         <p className="label">Symbol</p>
-        <p className="label">Name</p>
+        <p className="label coin-title">Name</p>
         <p className="label">Price</p>
         <p className="label volume">Volume</p>
         <p className="label">24hr</p>
