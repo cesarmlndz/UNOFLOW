@@ -1,0 +1,143 @@
+.routed-header {
+    width: 100%;
+    margin: 4rem;
+}
+
+.routed-header h1 {
+    color: white;
+    font-family: 'Bungee', sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+.routed-header a {
+    text-decoration: none;
+}
+
+.routed-card-container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    color: white;
+    border: 1px solid purple;
+    padding: 1rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+}
+
+.crypto-card-one {
+    padding: 1rem;
+}
+
+.routed-coin-rank {
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 35%;
+    padding-left: 1rem;
+}
+
+.routed-coin-image-duo {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    gap: 0.5rem;
+}
+
+.routed-coin-image-duo img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.routed-coin-image-duo p {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.crypto-card-two {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    font-size: 2.7rem;
+    padding: 2rem;
+}
+
+.crypto-card-three {
+    flex-direction: column;
+    padding: 0;
+}
+
+.routed-labels-container {
+    display: flex;
+    width: 100%;
+    gap: 3px;
+}
+
+.routed-coin-label {
+    width: 16.67%;
+    text-align: center;
+    background: rgba(134, 134, 134, 0.568);
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.routed-coin-chart-container {
+    width: 100%;
+    display: flex;
+}
+
+.routed-coin-chart-value {
+    width: 16.67%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.crypto-card-four {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    gap: 1rem;
+    line-height: 1.6rem;
+}
+
+.routed-card-about-title {
+    color: rgba(134, 134, 134, 0.568);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+   .routed-card-container {
+        width: 80%;
+   }
+}
+
+@media (max-width: 800px) {
+    .routed-coin-rank, .routed-coin-image-duo p {
+        font-size: 1.2rem; 
+    }
+    .routed-coin-image-duo img {
+        height: 2rem;
+        width: 2rem;
+    }
+    .routed-header h1 {
+        font-size: 1.4rem;
+    }
+ }
+
+ @media (max-width: 450px) {
+    .routed-card-container {
+        width: 85%;
+   }
+    .routed-coin-rank, .routed-coin-image-duo p {
+        font-size: 0.9rem; 
+    }
+    .routed-coin-chart-value, .routed-coin-label {
+        font-size: 0.8rem;
+    } 
+ }

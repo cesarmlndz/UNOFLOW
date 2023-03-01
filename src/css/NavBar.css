@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: black;
+    padding: 1rem 3.5rem;
+    border-bottom: 2px solid gray;
+}
+
+.navbar-logo {
+    font-family: 'Bungee', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.flow-word {
+    color: lightblue;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        padding-left: 2rem;
+    }
+    .navbar-logo {
+        font-size: 1rem;
+    }
+}

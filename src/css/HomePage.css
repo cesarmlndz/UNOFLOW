@@ -1,0 +1,119 @@
+.cover {
+    width: 100%;
+    height: 35rem;
+    position: relative;
+}
+
+.unoflow-nft-cover {
+    background-image: url('https://miro.medium.com/max/1400/1*XszWgouSjL2GrLP_Y6q90g.gif');
+    background-position: center;
+    background-size: contain;
+    border-bottom: 1px solid white;
+}
+
+.overlay {
+    background-color: rgba(11, 11, 11, 0.637);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    padding: 5rem;
+}
+
+.overlay h1 {
+    color: white;
+    font-family: 'Bungee', sans-serif;
+    font-size: 1.8rem;
+}
+
+.unoflow-nft-cover-h1 {
+    background: rgba(0, 0, 0, 0.539);
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.overlay p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.flow-word {
+    color: lightblue;
+}
+
+.overlay p {
+    margin-top: 2rem;
+    max-width: 55%;
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+
+.overlay button {
+    margin-top: 2rem;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 181, 43);
+    cursor: pointer;
+    border: none;
+}
+
+.overlay button:hover {
+    background: rgb(255, 125, 118);
+}
+
+/* UNOFLOW-CRYPTO */
+
+.unoflow-crypto-cover {
+    background: url('https://i.pinimg.com/originals/f5/f2/fc/f5f2fc5ba52603c5ea602b8202ad529a.gif');
+    background-size: cover;
+}
+
+@media (max-width: 1300px) { 
+    .overlay p {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 790px) {
+    .overlay h1 {
+        font-size: 1rem;
+    }
+    .overlay p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .overlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 2rem;
+    }
+    .unoflow-nft-cover-h1 {
+        background: rgba(0, 0, 0, 0.684);
+        align-self: flex-start;
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+   }
+   .unoflow-crypto-cover .overlay h1 {
+        align-self: flex-start;
+        margin-left: 1rem;
+   }
+    .overlay p {
+        font-size: 0.9rem;
+        max-width: 100%;
+        line-height: 1.6rem;
+        text-align: start;
+    }
+    .overlay button {
+        font-size: 0.9rem;
+        padding: 0.4rem 2rem; 
+    }
+    .unoflow-crypto-cover p {
+        text-align: start;
+    }
+}

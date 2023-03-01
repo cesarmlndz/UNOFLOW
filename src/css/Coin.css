@@ -1,0 +1,52 @@
+.coin-container {
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+}
+
+.coin-container:hover {
+   transform: scale(1.04);
+   transition: 0.4s ease-in-out;
+}
+
+.image-symbol-duo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.image-symbol-duo img {
+    width: 2.2rem;
+}
+
+.coin-title {
+    text-transform: capitalize;
+}
+
+@media (max-width: 730px) {
+    .coin-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .coin-container {
+        height: 4rem;
+    }
+    .label {
+        font-size: 0.5rem;
+        width: 20%;
+    }
+    .image-symbol-duo img {
+        width: 1.5rem;
+    }
+    .volume {
+        display: none;
+    }
+}

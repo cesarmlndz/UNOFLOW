@@ -1,0 +1,62 @@
+.nft-container { 
+    background: rgba(0, 0, 0, 0.4);
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nft-container a {
+    text-decoration: none;
+}
+ 
+.nft-container:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
+.nft-container img {
+    width: 100%;
+    height: 18rem;
+    border-radius: 10px;
+    border-bottom: 1.5px solid white;
+}
+
+.nft-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 0.5rem;
+    height: 5rem;
+}
+
+.nft-title, .nft-creator, .nft-price {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.nft-creator {
+    color: gray;
+}
+
+.complete-nft button {
+    padding: 0.3rem 1rem;
+    width: 100%;
+    border-radius: 11px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid purple;
+    background: none;
+    margin-top: 0.7rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.complete-nft button:hover {
+    background: purple;
+}

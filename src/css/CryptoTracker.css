@@ -1,0 +1,88 @@
+.crypto-header {
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.crypto-header h1 {
+    color: white;
+    font-family: 'Bungee', sans-serif;
+    font-size: 1.8rem; 
+    background: rgba(0, 0, 0, 0.322);
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.crypto-header input {
+    margin-top: 2rem;
+    width: 35%;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.coin-labels {
+    width: 80%;
+    background: rgb(45, 54, 66);
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+}
+
+.label {
+    width: 16.67%;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.8rem 0;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.all-coins-container {
+    width: 80%;
+    display: flex;
+    margin: 1.5rem auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 980px) {
+    .crypto-header input {
+        width: 60%;
+        font-size: 1.1rem;
+    }
+    .label {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 730px) {
+    .coin-labels {
+        width: 90%;
+    }
+    .all-coins-container {
+        width: 90%;
+    }
+    .crypto-header input {
+        width: 90%;
+        height: 2.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .crypto-header h1 {
+        font-size: 1.2rem;
+    }
+}
